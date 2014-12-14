@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UqP-dx-geZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="4RY-N1-4LA">
+            <objects>
+                <navigationController id="UqP-dx-geZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zOm-KK-F71">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="LdS-Ob-zRi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GpL-m3-Pe8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-314" y="337"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="BCE-Bs-QD6">
+            <objects>
+                <viewController id="NY3-wE-TGw" customClass="InfoViewController" customModule="AudioRecorder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a3p-wI-ZOc"/>
+                        <viewControllerLayoutGuide type="bottom" id="uXm-1T-vqX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZNc-xk-ijg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpj-s2-cUW">
+                                <rect key="frame" x="102" y="375" width="397" height="21"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" link="YES" staticText="YES"/>
+                                </accessibility>
+                                <string key="text">www.linkedin.com/pub/vincenzo-favara/2b/117/355
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVa-0K-SmC">
+                                <rect key="frame" x="164" y="338" width="273" height="29"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" link="YES" staticText="YES"/>
+                                </accessibility>
+                                <string key="text">vin.favara@gmail.com
+</string>
+                                <fontDescription key="fontDescription" name="Consolas" family="Consolas" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="immIo.png" highlightedImage="immIo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bPP-D0-hTo">
+                                <rect key="frame" x="180" y="94" width="240" height="236"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Gdg-roma.png" translatesAutoresizingMaskIntoConstraints="NO" id="V6P-VD-L8N">
+                                <rect key="frame" x="180" y="533" width="240" height="47"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="www.google.com/+VincenzoFavaraPlus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlp-2m-aKB">
+                                <rect key="frame" x="102" y="404" width="397" height="21"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" link="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bPP-D0-hTo" firstAttribute="top" secondItem="a3p-wI-ZOc" secondAttribute="bottom" constant="30" id="11Y-cU-jEr"/>
+                            <constraint firstAttribute="centerX" secondItem="V6P-VD-L8N" secondAttribute="centerX" id="1dv-kK-3U9"/>
+                            <constraint firstAttribute="centerX" secondItem="qpj-s2-cUW" secondAttribute="centerX" id="2de-5Q-o1Q"/>
+                            <constraint firstAttribute="centerY" secondItem="V6P-VD-L8N" secondAttribute="centerY" constant="-256.5" id="9m1-Ba-YPa"/>
+                            <constraint firstItem="bPP-D0-hTo" firstAttribute="leading" secondItem="ZNc-xk-ijg" secondAttribute="leadingMargin" constant="16" id="AS6-WG-8iC"/>
+                            <constraint firstItem="V6P-VD-L8N" firstAttribute="top" secondItem="jlp-2m-aKB" secondAttribute="bottom" constant="108" id="E5k-Qi-MNI"/>
+                            <constraint firstAttribute="centerX" secondItem="jlp-2m-aKB" secondAttribute="centerX" id="FJY-ii-CYs"/>
+                            <constraint firstItem="uXm-1T-vqX" firstAttribute="top" secondItem="V6P-VD-L8N" secondAttribute="bottom" constant="20" id="GTo-NU-elM"/>
+                            <constraint firstAttribute="centerY" secondItem="jlp-2m-aKB" secondAttribute="centerY" constant="-114.5" id="XRB-NZ-8Y8"/>
+                            <constraint firstAttribute="centerY" secondItem="qpj-s2-cUW" secondAttribute="centerY" constant="-85.5" id="YjN-hO-0h7"/>
+                            <constraint firstAttribute="centerX" secondItem="bPP-D0-hTo" secondAttribute="centerX" id="deE-n9-C7J"/>
+                            <constraint firstAttribute="centerY" secondItem="tVa-0K-SmC" secondAttribute="centerY" constant="-52.5" id="f8v-wv-OEW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bPP-D0-hTo" secondAttribute="trailing" constant="16" id="fbh-5W-WPf"/>
+                            <constraint firstAttribute="centerY" secondItem="bPP-D0-hTo" secondAttribute="centerY" constant="88" id="qZW-TQ-3p3"/>
+                            <constraint firstAttribute="centerX" secondItem="tVa-0K-SmC" secondAttribute="centerX" id="weg-b4-pOs"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="11Y-cU-jEr"/>
+                                <exclude reference="AS6-WG-8iC"/>
+                                <exclude reference="fbh-5W-WPf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jcw-ke-zmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="419" y="-435"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SoundListViewController" customModule="AudioRecorder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5g5-Rp-DFc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ujj-82-ezV">
+                                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="oZS-oB-ecE"/>
+                                    <tabBarItem systemItem="more" id="mrh-k6-aDJ"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ujj-82-ezV" secondAttribute="bottom" id="5Uu-RT-c0V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5g5-Rp-DFc" secondAttribute="trailing" constant="-16" id="8Yz-2Z-uBg"/>
+                            <constraint firstItem="ujj-82-ezV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="I73-jW-k6B"/>
+                            <constraint firstItem="5g5-Rp-DFc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="IV9-ry-yhs"/>
+                            <constraint firstItem="ujj-82-ezV" firstAttribute="top" secondItem="5g5-Rp-DFc" secondAttribute="bottom" id="YZY-y7-TG7"/>
+                            <constraint firstItem="5g5-Rp-DFc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="d6g-Bu-pKE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ujj-82-ezV" secondAttribute="trailing" constant="-16" id="ooD-rg-9dz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="List" id="wwc-Ax-l7x">
+                        <barButtonItem key="leftBarButtonItem" title="Info" id="hxT-4s-tdW">
+                            <connections>
+                                <action selector="infoAction:" destination="BYZ-38-t0r" id="psW-cm-jyu"/>
+                                <segue destination="NY3-wE-TGw" kind="show" id="9uv-1s-ozb"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8ud-TH-mrv">
+                            <connections>
+                                <action selector="addAction:" destination="BYZ-38-t0r" id="GqA-Sm-HlU"/>
+                                <segue destination="AMT-Tc-b49" kind="presentation" id="HXB-bC-r4C"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="5g5-Rp-DFc" id="d12-hg-sKI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="419" y="337"/>
+        </scene>
+        <!--New Sound View Controller-->
+        <scene sceneID="QQH-rD-rdx">
+            <objects>
+                <viewController id="AMT-Tc-b49" customClass="NewSoundViewController" customModule="AudioRecorder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6FK-Dt-RuC"/>
+                        <viewControllerLayoutGuide type="bottom" id="94I-dM-PUP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T4B-JY-X4h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NpI-uX-Kaa">
+                                <rect key="frame" x="16" y="95" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcW-jA-AIU">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="New Sound" id="b4s-sx-cTB">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="96e-CG-RAb">
+                                            <connections>
+                                                <action selector="cancelAction:" destination="AMT-Tc-b49" id="0IH-5g-8gC"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="UKx-cJ-6tW">
+                                            <connections>
+                                                <action selector="saveAction:" destination="AMT-Tc-b49" id="ws1-F6-aLc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltR-3u-jTg">
+                                <rect key="frame" x="36" y="232" width="528" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordAction:" destination="AMT-Tc-b49" eventType="touchUpInside" id="ZSo-1B-E2g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rcW-jA-AIU" secondAttribute="trailing" constant="-16" id="20F-3m-TS3"/>
+                            <constraint firstItem="ltR-3u-jTg" firstAttribute="top" secondItem="NpI-uX-Kaa" secondAttribute="bottom" constant="107" id="Bcu-aE-5BF"/>
+                            <constraint firstItem="NpI-uX-Kaa" firstAttribute="leading" secondItem="T4B-JY-X4h" secondAttribute="leadingMargin" id="Dmy-PX-OzL"/>
+                            <constraint firstItem="NpI-uX-Kaa" firstAttribute="top" secondItem="rcW-jA-AIU" secondAttribute="bottom" constant="31" id="GaN-Zl-kFq"/>
+                            <constraint firstItem="rcW-jA-AIU" firstAttribute="top" secondItem="6FK-Dt-RuC" secondAttribute="bottom" id="H9a-jK-eEi"/>
+                            <constraint firstItem="NpI-uX-Kaa" firstAttribute="trailing" secondItem="T4B-JY-X4h" secondAttribute="trailingMargin" id="lyZ-tu-ykd"/>
+                            <constraint firstItem="rcW-jA-AIU" firstAttribute="leading" secondItem="T4B-JY-X4h" secondAttribute="leadingMargin" constant="-16" id="obB-YY-4IH"/>
+                            <constraint firstItem="ltR-3u-jTg" firstAttribute="leading" secondItem="T4B-JY-X4h" secondAttribute="leadingMargin" constant="20" id="osW-I5-0gx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ltR-3u-jTg" secondAttribute="trailing" constant="20" id="xEA-IB-LQz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="uiButtonRecord" destination="ltR-3u-jTg" id="fXd-rW-BdZ"/>
+                        <outlet property="uiTextName" destination="NpI-uX-Kaa" id="f5V-IA-Prb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f4j-7O-L8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Gdg-roma.png" width="313" height="61"/>
+        <image name="immIo.png" width="282" height="281"/>
+    </resources>
+</document>

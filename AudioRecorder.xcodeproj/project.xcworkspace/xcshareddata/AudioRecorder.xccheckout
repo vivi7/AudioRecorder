@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>343DC222-8E2D-45F4-A879-4412144B8EDD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AudioRecorder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3FBDCDA2FDCA68D61C8CC669486298A991BDAF3</key>
+		<string>https://github.com/vivi7/AudioRecorder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AudioRecorder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3FBDCDA2FDCA68D61C8CC669486298A991BDAF3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vivi7/AudioRecorder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3FBDCDA2FDCA68D61C8CC669486298A991BDAF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3FBDCDA2FDCA68D61C8CC669486298A991BDAF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudioRecorder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
